@@ -1,0 +1,79 @@
+VIM
+Navigation:
+0           go to beginning of line
+$           go to end of line
+3w          move forward 3 words
+e           move to the end
+3e          move to the end of the third word from here
+H           go High in current window
+M           go Middle in current window
+L           go Low in current window
+Ctrl+d      go down half a page
+Ctrl+u      go up half a page
+G      go to the end of the file
+gg          go to the beginning of the file
+number G    go to the line number
+%           find matching bracket
+
+Editing:
+a           append (start typing in position after current)
+A           insert at end of line
+o           start typing in new line below this one
+O           (capital o) start typing in new line above this one
+r           replace current letter only
+R           replace more than one letter
+p           paste
+x           replace the current letter
+y           yank (copy)
+ce          clear from here until the end of the word
+c$          clear from here until the end of the line
+yy          copy the current line
+d$          delete to the end of the line
+dd          delete line
+d2w         delete two words
+
+Spell-check:
+]s          go to next misspelled word
+[s          go to previous misspelled word
+z=          when on misspelled word, this allows you to fix typo
+zg          when on misspelled word, this adds word to dictionary
+
+General:
+Ctrl+[      Esc
+u           undo once
+U           undo all changes in a line
+v           enter highlighting mode
+Ctrl+r      undo the undo's
+Ctrl+p      fuzzy search
+:!          allows you to execute external command (e.g. ls)
+:r          retrieve (i.e. copy in). Can be followed by filename or !ls output
+:e [fn]     open file with filename [fn]
+Ctrl+d      while typing a :command this shows all available options
+Tab         while typing a :command this will autocomplete
+,e          show tree
+Ctrl+s 123  switch vim window (not vim pane)
+db          delete word backwards
+
+Splitting the screen:
+:sp         split screen horizontally
+:vsp        split screen vertically
+,v          split screen vertically
+Ctrl+w Ctrl+w move to next vim window
+
+Searching:
+/           search forward
+?           search backward
+n           next search find
+N           previous search find
+:%s/o/n/gc  replaces "o" with "n" globally and confirms each time
+,ra         replace all, opens up :$s/
+
+Things to find out:
+- How does search/replace in current directory work?
+- open file in tree
+- list of previous 5 files
+- go to function definition/variable declaration: try Ctrl+[
+- lint on save
+- autoimport for angular
+- why does Esc move you left one letter?
+- refactor a variable/function/class name

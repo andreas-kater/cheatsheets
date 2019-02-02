@@ -1,0 +1,22 @@
+git show 770b1ab6
+the line above shows you detail for commit 770b1ab6
+
+git log --oneline example.txt
+the line above lists all commits that changed file 'example.txt'
+
+git log -S example_variable
+the line above lists all commits that changed the number of times
+'example_variable' appeared in the file structure
+
+git log -E -i --grep 'cach(e|ing)'
+the line above lists all commits that mentioned 'cache' or 'caching' in the
+commit message
+
+git log --pretty=format('%C(yellow)%h%C(reset) - %an [%C(green)%ar%C(reset)] %s'
+the line above gives colour to the git log
+
+git commit --amend -no-edit
+adds any changes to your previous commit (creates new git hash)
+
+git diff origin/master..master
+will show you all the changes between the origin/master and master branches

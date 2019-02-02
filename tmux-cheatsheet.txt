@@ -1,0 +1,10 @@
+Ctrl+s      enter tmux mode
+  %         split screen horizontally
+  "         split screen vertically
+Ctrl+h      switch to window to the left
+Ctrl+j      switch to window on top
+Ctrl+k      switch to window below
+Ctrl+l      switch to window to the right
+
+
+
