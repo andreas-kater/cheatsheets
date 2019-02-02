@@ -1,4 +1,5 @@
 VIM
+
 Navigation:
 3w          move forward 3 words
 H           go High in current window
@@ -19,6 +20,10 @@ C+p         opens fuzzy search. Within this:
             C+j selects file one down
             C+v opens file in vertical split
             C+s opens file in horizontal split
+
+Commenting out:
+,cc         comment out a line or selected lines
+,ci         uncomment a line or selected lines
 
 Selecting:
 iw          in word

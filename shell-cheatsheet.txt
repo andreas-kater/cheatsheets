@@ -1,0 +1,5 @@
+C+p         Loop through previous shell commands
+cat         print file contents to screen
+| jq .      print json file contents to screen with proper formatting
+grep        filter rows 
+wc -l       get length of buffered lines
