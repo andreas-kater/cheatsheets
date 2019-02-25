@@ -6,5 +6,9 @@ Ctrl+j      switch to window on top
 Ctrl+k      switch to window below
 Ctrl+l      switch to window to the right
 
+Ctrl+n      open new session
+Ctrl+s, s   list open sessions
+Ctrl+s, j   rename current session
+Ctrl+s, K   kill current session
 
 
