@@ -21,6 +21,9 @@ C+p         opens fuzzy search. Within this:
             C+v opens file in vertical split
             C+s opens file in horizontal split
 
+Sorting:
+,sl         When you have visually selected lines, this sorts them alphabetically
+
 Commenting out:
 ,cc         comment out a line or selected lines
 ,ci         uncomment a line or selected lines
