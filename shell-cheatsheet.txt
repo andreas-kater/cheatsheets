@@ -5,4 +5,6 @@ grep                                           filter rows
 wc -l                                          get length of buffered lines
 find . -name "*.spec.ts" -type f               this will find all files that match the pattern
 find . -name "*.spec.ts" -type f -delete       this will find all files that match the pattern
+grep -R {something_to_look_for} .              this allows you to search within files
+
 

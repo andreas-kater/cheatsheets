@@ -1,0 +1,13 @@
+grep "Andi" names.txt                       searches for Andi in names.txt
+grep "Andi" names.txt -w                    searches exact word
+grep "Andi" names.txt -i                    makes it case in-sensitive
+grep "Andi" names.txt -n                    adds line number
+grep "Andi" names.txt -B 4                  shows the 4 lines before the match
+grep "Andi" names.txt -A 4                  shows the 4 lines after the match
+grep "Andi" names.txt -C 4                  shows the 4 lines before and after the match (Context)
+grep "Andi" ./*                             search all files in current directory
+grep "Andi" ./*.txt                         search all txt files in current directory
+grep "Andi" ./ -r                           recursive search through working dir
+
+
+
